@@ -1,9 +1,9 @@
 import java.io.File
 
 interface BasePuzzle {
-    val year: Int
-    val day: Int
-    val file: String
-
-    fun readFile() = File("src/main/kotlin/y$year/d$day", file).readLines()
+    fun readFile(num: Int): List<String> {
+        val path = this::class.java.packageName.replace(".", "/")
+        val file = "input$num.txt"
+        return File("src/main/kotlin/$path", file).readLines()
+    }
 }
