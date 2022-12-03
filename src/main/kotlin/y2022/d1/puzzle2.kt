@@ -7,7 +7,7 @@ object Puzzle2 : BasePuzzle {
 
     @JvmStatic
     fun main(args: Array<String>) {
-        val data = readFile(1)
+        val data = readInput()
 
         var pos = 0
         val list = mutableListOf<BigInteger>()
