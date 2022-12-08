@@ -7,6 +7,7 @@ import y2022.d4.Day4
 import y2022.d5.Day5
 import y2022.d6.Day6
 import y2022.d7.Day7
+import y2022.d8.Day8
 
 fun main() {
     Day1.solve()
@@ -16,4 +17,5 @@ fun main() {
     Day5.solve()
     Day6.solve()
     Day7.solve()
+    Day8.solve()
 }
