@@ -11,8 +11,11 @@ import y2022.d6.Day6
 import y2022.d7.Day7
 import y2022.d8.Day8
 import y2022.d9.Day9
+import y2022.dx.DayX
 
 fun main() {
+    DayX.solve()
+
     Day1.solve()
     Day2.solve()
     Day3.solve()
