@@ -6,6 +6,7 @@ import y2022.d11.Day11
 import y2022.d14.Day14
 import y2022.d15.Day15
 import y2022.d2.Day2
+import y2022.d20.Day20
 import y2022.d3.Day3
 import y2022.d4.Day4
 import y2022.d5.Day5
@@ -31,4 +32,5 @@ fun main() {
     Day11.solve()
     Day14.solve()
     Day15.solve()
+    Day20.solve()
 }
