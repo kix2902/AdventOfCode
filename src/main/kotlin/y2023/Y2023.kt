@@ -1,6 +1,7 @@
 package y2023
 
 import y2023.d1.Day1
+import y2023.d15.Day15
 import y2023.d2.Day2
 import y2023.d4.Day4
 
@@ -10,4 +11,5 @@ fun main() {
     Day1.solve()
     Day2.solve()
     Day4.solve()
+    Day15.solve()
 }
